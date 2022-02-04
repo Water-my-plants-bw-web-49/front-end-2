@@ -1,0 +1,146 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap');
+/* Font */
+* {
+  font-family: 'Domine', serif;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ebebe4;
+    padding-top: 1%;
+}
+
+.left-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 2vw;
+    padding: 1%;
+}
+
+button {
+  background-color: #008441;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  width: 50%;
+  font-size: 16px;
+}
+
+.container {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+#submit-button, .add-plant-button, .register-button, .login-button {
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.right-links {
+  width: 10%;
+}
+
+
+.left-links {
+  width: 30vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.form-group label {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  max-width: 50%;
+}
+
+#plant-input, #species-input, #nickname-input, #h2ofrequency-input, #user-input, #pass-input, #pnumber-input {
+  margin-left: 20%;
+  margin-right: 20%;
+  max-width: 80%;
+}
+
+/* ***** plant.JS CSS ***** */
+.plants-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 2%;
+}
+
+.plant {
+  margin-top: 2%;
+  width: 30vw;
+  background-color: #e3e3e3;
+}
+
+img {
+  width: 50%;
+}
+
+/* ***** END OF plant.js CSS ***** */
+
+.homeInfo {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5%;
+}
+
+.homeInfo h2 {
+  font-size: 2.5vw;
+}
+.homeInfo p {
+  font-size: 1.2vw;
+}
+
+.homeInfo button {
+  background-color: #00ab84;
+  color: aliceblue;
+  border: none;
+  width: 10vw;
+  height: 7vh;
+  font-size: 1.5vw ;
+}
+.something {
+  display: flex;
+  background-color: #ebebe4;
+  padding: 7% 0;
+  text-align: left;
+}
+
+.something img {
+  width: 40vw;
+}
+
+
